@@ -1,0 +1,11 @@
+name: print-env
+
+on:
+  workflow_dispatch:
+
+jobs:
+  print-env:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print ENV
+        run: env
